@@ -1,0 +1,11 @@
+.tab-item-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  margin-right: 30px;
+}

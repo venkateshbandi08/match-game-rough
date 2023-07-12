@@ -1,0 +1,9 @@
+.thumbnail-image {
+  width: 150px;
+}
+.each-thumbnail-button {
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}

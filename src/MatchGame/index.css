@@ -1,0 +1,136 @@
+.match-game-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.nab-bar-container {
+  background-color: #2c0e3a;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.match-game-logo {
+  width: 200px;
+}
+.score-timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score-count-container {
+}
+.score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+}
+.score-count {
+  color: #fec653;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 60px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.timer-icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.timer-seconds {
+  color: #fec653;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.random-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.random-image {
+  width: 500px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.game-over {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+.trophy-image-container {
+}
+.trophy-image {
+  width: 400px;
+}
+.your-score-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.score-number {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.play-again-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c0e3a;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.play-again-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 10px;
+}
